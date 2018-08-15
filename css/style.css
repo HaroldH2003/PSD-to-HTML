@@ -120,6 +120,11 @@ ol il {
     src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'FontAwesome';
+    src: local('FontAwesome.otf'), url(../);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -809,8 +814,8 @@ footer p {
     nav ul li a:hover {
         color: black;
         border: none;
-        text-shadow:2px 1px 10px pink;
-        cursor:pointer;
+        text-shadow: 2px 1px 10px pink;
+        cursor: pointer;
     }
 
 /* RESPONSIVE BURGER NAV BUTTON */
